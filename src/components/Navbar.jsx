@@ -9,10 +9,7 @@ export default function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/cv">Experience</Link>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         </li>
         <li>
           <Link to="/project">Project</Link>
