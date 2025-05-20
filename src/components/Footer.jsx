@@ -1,32 +1,18 @@
 import React from "react";
-import {
-    Box,
-    FooterContainer,
-    Row,
-    Column,
-    FooterLink,
-    Heading,
-} from "../styles/FooterStyles";
+import '../styles/Footer.css';
 
-const Footer = () => {
-    return (
-        <Box>
-            <h1
-                style={{
-                    color: "white",
-                    textAlign: "center",
-                    marginTop: "10px",
-                }}
-            >
-            </h1>
-            <FooterContainer>
-                <Row>
-                   <p> LinkedIn </p>
-                   <p> Github </p>
-                   <p> Email </p>
-                </Row>
-            </FooterContainer>
-        </Box>
-    );
-};
+function Footer() {
+  return (
+    <div className="footer-box">
+      <div className="footer-container">
+        <div className="footer-row">
+          <a className="footer-link" href="/">LinkedIn</a>
+          <a className="footer-link" href="/contact">Github</a>
+          <a className="footer-link" href="/project">Email</a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default Footer;
