@@ -1,6 +1,6 @@
 import React from 'react';
 import Projects from '../components/Project';
-import Footer from "../components/Footer"
+
 export default function Project () {
     return (
       <div>
