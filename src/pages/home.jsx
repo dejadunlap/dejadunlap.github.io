@@ -14,7 +14,7 @@ export default function Home() {
             When I'm not re-watching Grey's Anatomy (specifically seasons 4-10), I'm either reading, working out, or calling my family.
         </p>
         <p>
-            You can learn more about my academic and professional experiences <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"> here </a>, see some of the things that I'm working on <a href="./projects"> here</a>, or contact me <a href="./contact"> here</a>. Hope to hear from you soon!
+            You can learn more about my academic and professional experiences <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>, see some of the things that I'm working on <a href="./projects"> here</a>, or contact me <a href="./contact"> here</a>. Hope to hear from you soon!
         </p>
       </div>
     );

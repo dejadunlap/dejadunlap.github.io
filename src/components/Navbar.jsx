@@ -12,7 +12,7 @@ export default function Navbar() {
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         </li>
         <li>
-          <Link to="/project">Project</Link>
+          <Link to="/project">Projects</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
