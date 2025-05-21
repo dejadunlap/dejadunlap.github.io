@@ -4,7 +4,7 @@ import Projects from '../components/Project';
 export default function Project () {
     return (
       <div>
-        <h1>Publications</h1>
+        <h2>Publications</h2>
           <ul>
             <li><Projects title="Evaluating Usage of African-American Vernacular English in Large Language Models" 
             authors="Dunlap D. and Mccoy R.T." 
@@ -12,9 +12,7 @@ export default function Project () {
             date="(2025)"
             abstract="Large language models (LLMs) accurately capture many aspects of human language use. However, most analyses of them involve standardized dialects such as Standard American English. In this work, we investigate how accurately LLMs represent African American Vernacular English (AAVE). We analyze three LLMs - Llama 3.8, GPT-4o mini, and Gemma 2.27 - to compare their usage of AAVE to actual AAVE used by people. We first analyzed interviews from the Corpus of Regional African American Language to identify the typical contexts where people use AAVE grammatical
                       features such as “ain’t”. We then prompted the LLMs to produce text in AAVE and compared the model-generated text to human usage patterns. We find that, in many cases, there are substantial differences between AAVE usage in LLMs and humans: LLMs usually misrepresent grammatical features characteristic of AAVE. Furthermore, through sentiment analysis and manual inspection, we found that the models reflected concerning stereotypes about African-American
-                      upbringing and culture. These results highlight the need for more diversity in the data used to train models to mitigate the potential of spreading offensive and stereotyped views of African-American language and culture." 
-            paper="link" 
-            code="link"/></li>
+                      upbringing and culture. These results highlight the need for more diversity in the data used to train models to mitigate the potential of spreading offensive and stereotyped views of African-American language and culture." /></li>
             <li><Projects title="An Association of Twitter Derived Measures of Discrimination and Race-Motivated Hate Crimes" 
             authors="Dunlap D. and Park S."
             journal="Journal of High School Research"
@@ -23,9 +21,17 @@ export default function Project () {
             paper="https://www.jsr.org/hs/index.php/path/article/view/2819" 
             code="https://github.com/dejadunlap/APResearchProject"/></li> 
           </ul>
-        <h1>Datasets</h1>
+        <h2>Datasets</h2>
         <ul>
-          <li><Projects title="LLM Generated Speech of African American Vernacular English" authors="Dunlap D." abstract="something something" code="link"/></li>
+          <li><Projects title="LLM Generated Speech of African American Vernacular English" authors="Dunlap D." abstract="something something" dataset="link"/></li>
+        </ul>
+        <h2>Hackathons</h2>
+        <ul>
+          <li><Projects title="JPMorgan Code for Good Hackathon 2025" abstract="Placed First place in the JPMorgan Code for Good Hackathon in the NYC Area. Create a Course Management site for a non-proft that teach low-income students financial literacy."/></li>
+        </ul>
+        <h2>Miscellanous</h2>
+        <ul>
+          <li><Projects title="It's time Yale addresses the race issue in the Engineering Department" authors="D. Dunlap" abstract="Authored an Article advocating for Yale to put more resources into increasing equity in the engineering department" paper="https://yaledailynews.com/blog/2024/04/02/dunlap-its-time-yale-address-the-race-issue-in-the-engineering-department/"/></li>
         </ul>
       </div>
     );
