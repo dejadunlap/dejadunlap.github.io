@@ -1,6 +1,6 @@
 import React from 'react';
 import Projects from '../components/Project';
-import Footer from "../components/Footer"
+
 export default function Project () {
     return (
       <div>
@@ -8,13 +8,12 @@ export default function Project () {
           <ul>
             <li><Projects title="Evaluating Usage of African-American Vernacular English in Large Language Models" 
             authors="Dunlap D. and Mccoy R.T." 
-            journal="8th AAAI/ACM Conference on AI, Ethics, and Society"
-            date="(2025)"
+            journal="17th International Conference, Cross-Cultural Desgin 2026, 28th HCI International Conference, HCII 2026"
+            date="(2026)"
             abstract="Large language models (LLMs) accurately capture many aspects of human language use. However, most analyses of them involve standardized dialects such as Standard American English. In this work, we investigate how accurately LLMs represent African American Vernacular English (AAVE). We analyze three LLMs - Llama 3.8, GPT-4o mini, and Gemma 2.27 - to compare their usage of AAVE to actual AAVE used by people. We first analyzed interviews from the Corpus of Regional African American Language to identify the typical contexts where people use AAVE grammatical
                       features such as “ain’t”. We then prompted the LLMs to produce text in AAVE and compared the model-generated text to human usage patterns. We find that, in many cases, there are substantial differences between AAVE usage in LLMs and humans: LLMs usually misrepresent grammatical features characteristic of AAVE. Furthermore, through sentiment analysis and manual inspection, we found that the models reflected concerning stereotypes about African-American
-                      upbringing and culture. These results highlight the need for more diversity in the data used to train models to mitigate the potential of spreading offensive and stereotyped views of African-American language and culture." 
-            paper="link" 
-            code="link"/></li>
+                      upbringing and culture. These results highlight the need for more diversity in the data used to train models to mitigate the potential of spreading offensive and stereotyped views of African-American language and culture."
+            code="https://github.com/dejadunlap/AAVE_AI_Feature_Detection"/></li>
             <li><Projects title="An Association of Twitter Derived Measures of Discrimination and Race-Motivated Hate Crimes" 
             authors="Dunlap D. and Park S."
             journal="Journal of High School Research"
@@ -25,7 +24,8 @@ export default function Project () {
           </ul>
         <h1>Datasets</h1>
         <ul>
-          <li><Projects title="LLM Generated Speech of African American Vernacular English" authors="Dunlap D." abstract="something something" code="link"/></li>
+          <li><Projects title="LLM Generated Speech of African American Vernacular English" authors="Dunlap D." abstract="The synthetic dataset generated for the (Dunlap & Mccoy, 2026) project. LLMs from three different model families -- ChatGPT, Llama, Gemma -- produced text in the 'voice' of an African American. Text was generated across two formats -- sociolinguistic interviews and tweets. The dataset was used to compare LLMs usage to human usage of grammatical features associated with African American Vernacular English." dataset="link"/></li>
+
         </ul>
       </div>
     );

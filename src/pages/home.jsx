@@ -5,7 +5,7 @@ import './contact';
 export default function Home() {
   return (
     <div>
-      <h1 style={{ textDecoration: "underline" }}>Hello!</h1>
+      <h1 style={{ textDecoration: "underline" }}>Deja R. Dunlap</h1>
 
       <div style={{ display: 'flow-root' }}>
         <figure style={{
@@ -18,7 +18,7 @@ export default function Home() {
         <img
           src="/IMG_2326.JPG"
           alt="Black woman in her 20s with gold glasses smiling"
-          style={{width:'400px', height:'450px'}}
+          style={{width:'375px', height:'450px'}}
         />
 
         <figcaption style={{ fontSize: '15px', color: '#555', textAlign: 'right', marginTop: '-5px'}}>
@@ -27,9 +27,9 @@ export default function Home() {
         </figure>
 
         <p style={{ fontSize: "20px" }}>
-          Welcome to my website! As you have most likely guessed already, my name is Deja Dunlap. I'm a rising senior at Yale University studying Applied Mathematics with a concentration in Computer Science.
-          I'm currently a Mellon May and Edward A. Bouchet Research Fellowship, where I study computational understanding of minority dialects, specifically African-American Vernacular English. My broader research interests are in the intersections between 
-          artificial intelligence, society, and industry. I'm specifically interested in studying bias in AI and developing guidelines in the implementations and development of AI in industry.
+          Welcome to my website! As you have most likely guessed already, my name is Deja Dunlap. I'm a senior at Yale University studying Applied Mathematics with a concentration in Data Mining & Artificial Intelligence.
+          I'm currently a Yale Edward A. Bouchet Research Fellow, where I study computational understanding of minority dialects, specifically African-American Vernacular English. My broader research interests are in the intersections between 
+          artificial intelligence, society, and industry. I'm specifically interested the underlying archetictural designs and societial impacts of racial bias in AI. I'm also interested in the development of guidelines in the implementations and development of AI in industry, government and healthcare.
         </p>
 
         <p style={{ fontSize: "20px" }}>
@@ -38,7 +38,7 @@ export default function Home() {
         </p>
 
         <p style={{ fontSize: "20px" }}>
-          You can learn more about my academic and professional experiences <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>, see some of the things that I'm working on <a href="./projects">here</a>, or contact me <a href="./contact">here</a>. Hope to hear from you soon!
+          You can learn more about my academic and professional experiences <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">here</a> and see some of the things that I have worked on <a href="./projects">here</a>. Hope to hear from you soon!
         </p>
       </div>
     </div>
