@@ -4,8 +4,11 @@ export default function Projects ({ title, authors, journal, date, abstract, pap
   return (
     <div className="project">
         <p> <b>{authors}</b> {title} <i> {journal}</i> {date}</p>
-        <p><b> Abstract: </b> {abstract}</p>
-        <ul style={{display:'flex', flexDirection:'row', justifyContent:'flex-start', fontSize: '20px'}}>
+        <p> { journal ? (
+          <b>Abstract: </b>
+        ): null
+          } {abstract}</p>
+        <ul style={{listStyleType: 'none', display:'flex', flexDirection:'row', justifyContent:'flex-start', fontSize: '20px', paddingRight: '5px'}}>
           {paper ? (
             <li style={{paddingRight: '40px'}}>
               <a href={paper} target="_blank" rel="noopener noreferrer"> Paper </a>

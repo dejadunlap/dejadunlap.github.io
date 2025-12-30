@@ -4,7 +4,7 @@ import Projects from '../components/Project';
 export default function Project () {
     return (
       <div>
-        <h1>Publications</h1>
+        <h2>Publications</h2>
           <ul>
             <li><Projects title="Evaluating Usage of African-American Vernacular English in Large Language Models" 
             authors="Dunlap D. and Mccoy R.T." 
@@ -22,7 +22,7 @@ export default function Project () {
             paper="https://www.jsr.org/hs/index.php/path/article/view/2819" 
             code="https://github.com/dejadunlap/APResearchProject"/></li> 
           </ul>
-        <h1>Datasets</h1>
+        <h2>Datasets</h2>
         <ul>
           <li><Projects title="LLM Generated Speech of African American Vernacular English" authors="Dunlap D." abstract="The synthetic dataset generated for the (Dunlap & Mccoy, 2026) project. LLMs from three different model families -- ChatGPT, Llama, Gemma -- produced text in the 'voice' of an African American. Text was generated across two formats -- sociolinguistic interviews and tweets. The dataset was used to compare LLMs usage to human usage of grammatical features associated with African American Vernacular English." dataset="link"/></li>
 
