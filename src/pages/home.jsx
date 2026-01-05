@@ -1,6 +1,5 @@
 import React from 'react';
 import './project';
-import './contact';
 
 export default function Home() {
   return (
