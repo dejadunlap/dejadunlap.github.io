@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Deja Davis Personal Website"
+title: "Deja Davis"
 author_profile: true
 redirect_from: 
   - /about/

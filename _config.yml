@@ -23,7 +23,7 @@ repository               : "dejadunlap/dejadunlap.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.PNG"
   name             : "Deja Davis"
   pronouns         : "she/her"  
   bio              : "PhD Student at the University of California, Berkeley"

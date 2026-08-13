@@ -28,6 +28,14 @@ Industry Experience
 * Summer 2023: Software Engineer Intern
   * Bloomberg
 
+Research Experience
+======
+* April 2024 - April 2026: Yale Edward A. Bouchet Research Fellow
+  * Studied LLMs' usage of African-American Vernacular English
+
+* Oct 2023 - May 2024: Data Science Intern at Yale School of Public Health
+  * Studied minority communities comfort with sharing information to healthcare providers
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -38,12 +46,6 @@ Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service and leadership
