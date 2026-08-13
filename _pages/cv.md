@@ -11,35 +11,22 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Information Sciences, University of California - Berkeley, 2031 (expected)
+* B.S. in Applied Mathematics, Yale University, 2026
 
-Work experience
+Industry Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Summer 2026: Software Engineer Intern
+  * JPMorganChase
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2025: Software Engineer Intern
+  * JPMorganChase
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Summer 2025: Data Engineer Intern
+  * Rheaply
+
+* Summer 2023: Software Engineer Intern
+  * Bloomberg
 
 Publications
 ======
@@ -61,4 +48,10 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Code Switch: Restorative Justice for Girls of Color
+  * Feb 2022 - Present: Overachievers Education Fund Founder & Program Manager
+  * March 2023 - Present: Youth Advisory Board Member
+
+* National Society of Black Engineers
+  * May 2024 - July 2025: Region 1 Regional Leadership Conference Chair
+  * Aug 2023 - May 2025: Yale Chapter President
