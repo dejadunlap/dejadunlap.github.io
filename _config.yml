@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Deja Davis"
-  pronouns         : "she/her"  
+  pronouns         : "She/Her"  
   bio              : "PhD Student at the University of California, Berkeley"
   location         : "Oakland, CA"
   employer         : "University of California, Berkeley"
@@ -289,7 +289,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 
 # Sass/SCSS
