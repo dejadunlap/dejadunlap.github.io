@@ -30,6 +30,9 @@ Industry Experience
 
 Research Experience
 ======
+* August 2026 - Present: Graduate Research Assistant at Surveillance Technology Oversight Project
+  * Studying privacy laws and regulation for surveillance tech
+
 * April 2024 - April 2026: Yale Edward A. Bouchet Research Fellow
   * Studied LLMs' usage of African-American Vernacular English
 

@@ -1,7 +1,7 @@
 ---
 title: "Evaluating the Usage of African American Vernacular English in Large Language Models"
 collection: publications
-category: journal
+category: conferences
 permalink: /publication/2009-10-01-paper-title-number-1
 date: 2026-07-01
 venue: 'Cross-Cultural Design. HCII 2026'
